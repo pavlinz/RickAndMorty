@@ -1,0 +1,19 @@
+query Character($characterId: ID!) {
+    character(id: $characterId) {
+        name
+        status
+        image
+        created
+    }
+}
+
+query Characters {
+    characters {
+        results {
+            name
+            status
+            image
+            created
+        }
+    }
+}
