@@ -12,6 +12,7 @@ query Characters {
         results {
             name
             status
+            gender
             image
             created
         }

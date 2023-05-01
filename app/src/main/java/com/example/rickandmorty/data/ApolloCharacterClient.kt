@@ -21,6 +21,7 @@ fun CharactersQuery.Result.toSimpleCharacter(): SimpleCharacter {
     return SimpleCharacter(
         name = name,
         status = status,
+        gender = gender,
         image = image,
         created = created
     )
